@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\project\\refolio\\refolio.csproj": {}
+    "G:\\project\\Refolio\\Refolio.csproj": {}
   },
   "projects": {
-    "G:\\project\\refolio\\refolio.csproj": {
+    "G:\\project\\Refolio\\Refolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\project\\refolio\\refolio.csproj",
-        "projectName": "refolio",
-        "projectPath": "G:\\project\\refolio\\refolio.csproj",
+        "projectUniqueName": "G:\\project\\Refolio\\Refolio.csproj",
+        "projectName": "Refolio",
+        "projectPath": "G:\\project\\Refolio\\Refolio.csproj",
         "packagesPath": "C:\\Users\\ovisa\\.nuget\\packages\\",
-        "outputPath": "G:\\project\\refolio\\obj\\",
+        "outputPath": "G:\\project\\Refolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ovisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.8, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[10.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

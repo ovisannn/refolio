@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O/RT7uUXvoM=",
+  "dgSpecHash": "6bkNGjRU69c=",
   "success": true,
-  "projectFilePath": "G:\\project\\refolio\\refolio.csproj",
+  "projectFilePath": "G:\\project\\Refolio\\Refolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ovisa\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
     "C:\\Users\\ovisa\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.4\\microsoft.entityframeworkcore.10.0.4.nupkg.sha512",
@@ -18,9 +18,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "G:\\project\\refolio\\refolio.csproj",
+      "projectPath": "G:\\project\\Refolio\\Refolio.csproj",
       "warningLevel": 1,
-      "filePath": "G:\\project\\refolio\\refolio.csproj",
+      "filePath": "G:\\project\\Refolio\\Refolio.csproj",
       "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"
