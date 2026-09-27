@@ -2,7 +2,6 @@
 
 public class ProjectReference: EntityBase
 {
-    
     public long ProjectId { get; set; }
     public Project Project { get; set; } = null!;
     
