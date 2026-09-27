@@ -1,10 +1,11 @@
 ﻿namespace Refolio.Models;
 
-public class ProjectReference
+public class ProjectReference: EntityBase
 {
-    public required long Id { get; set; }
-    public required long ProjectId { get; set; }
-    public required long BacklogId { get; set; }
-    public required DateTime CreatedAt { get; set; }
-    public required DateTime UpdatedAt { get; set; }
+    
+    public long ProjectId { get; set; }
+    public Project Project { get; set; } = null!;
+    
+    public long BacklogId { get; set; }
+    public Backlog Backlog { get; set; } = null!;
 }

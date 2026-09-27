@@ -1,20 +1,16 @@
-﻿using System.Runtime.InteropServices.JavaScript;
+﻿namespace Refolio.Models;
 
-namespace Refolio.Models;
-
-public class Document
+public class Document: EntityBase
 {
-    public required long Id { get; set; }
     public required string Title { get; set; }
     public required string[] Authors { get; set; }
-    public required DocType Type { get; set; }
-    public required int PublicationYear { get; set; }
-    public required string Doi {get; set;}
-    public required string Isbn { get; set; }
-    public required string Publisher { get; set; }
-    public required string Url { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
+    public DocType Type { get; set; }
+    public int? PublicationYear { get; set; }
+    
+    public string? Doi {get; set;}
+    public string? Isbn { get; set; }
+    public string? Publisher { get; set; }
+    public string? Url { get; set; }
 }
 
 public enum DocType

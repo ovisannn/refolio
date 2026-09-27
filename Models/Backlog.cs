@@ -1,15 +1,20 @@
-﻿namespace Refolio.Models;
+﻿using System;
 
-public class Backlog
+namespace Refolio.Models;
+
+public class Backlog: EntityBase
 {
-    public required long id { get; set; }
-    public required long UserId { get; set; }
-    public required long DocumentId { get; set; }
+    
+    public long UserId { get; set; }
+    public User User { get; set; } = null!;
+    
+    public long DocumentId { get; set; }
+    public Document Document { get; set; } = null!;
+    public string? Notes { get; set; }
+    
     public required ReadingStatus ReadingStatus { get; set; }
-    public required int Priority { get; set; }
-    public required DateTime CreatedAt { get; set; }
-    public required DateTime UpdatedAt { get; set; }
-    public required string Notes { get; set; }
+    public int? Priority { get; set; }
+    public DateTime? CompletedAt { get; set; }
 }
 
 public enum ReadingStatus

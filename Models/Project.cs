@@ -1,10 +1,10 @@
 ﻿namespace Refolio.Models;
 
-public class Project
+public class Project : EntityBase
 {
-    public required long Id { get; set; }
-    public required long UserId { get; set; }
+    public long UserId { get; set; }
+    public User User { get; set; }  = null!;
+    
     public required string Title { get; set; }
-    public required DateTime CreatedAt { get; set; }
-    public required DateTime UpdatedAt { get; set; }
+    public string? Description { get; set; }
 }
