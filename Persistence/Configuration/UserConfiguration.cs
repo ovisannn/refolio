@@ -13,7 +13,8 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.Property(m => m.Id).ValueGeneratedOnAdd();
         
         builder.Property(m=> m.Username).IsRequired().HasMaxLength(200);
-        builder.Property(m=> m.Password).IsRequired().HasMaxLength(200);
+        builder.Property(m=> m.PasswordHash).IsRequired();
+        builder.Property(m => m.PasswordSalt).IsRequired();
         builder.Property(m=> m.Email).IsRequired().HasMaxLength(200);
         
         builder.Property(m=> m.CreatedAt).IsRequired().ValueGeneratedOnAdd();

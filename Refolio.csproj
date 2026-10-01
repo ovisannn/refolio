@@ -17,4 +17,12 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Annotation\" />
+    <Folder Include="DTOs\Backlog\" />
+    <Folder Include="DTOs\Document\" />
+    <Folder Include="DTOs\ProjectReference\" />
+    <Folder Include="DTOs\Project\" />
+  </ItemGroup>
+
 </Project>
