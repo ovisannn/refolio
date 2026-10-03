@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.Security.Cryptography;
 
-namespace refolio.Helper;
+namespace Refolio.Helper;
 
 public static class PasswordHandler
 {

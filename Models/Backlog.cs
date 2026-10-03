@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Refolio.Models;
+﻿namespace Refolio.Models;
 
 public class Backlog: EntityBase
 {
